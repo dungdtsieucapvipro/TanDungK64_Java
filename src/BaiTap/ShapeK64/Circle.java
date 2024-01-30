@@ -8,6 +8,6 @@ public class Circle extends Shape {
     }
     @Override
     public double calculateArea(){
-        return this.radius * this.radius * 3.14;
+        return this.radius * this.radius * Math.PI;
     }
 }
