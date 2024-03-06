@@ -24,7 +24,7 @@ public class Main {
         IShape r2 = new Rectangle(3,5);
         IShape [] list = {c1,c2,r1,r2};
         for (IShape s:list){
-            System.out.println("Dien tich la: " + s.getArea());
+            System.out.println("Dien tich cua  la: " + s.getArea());
         }
         scanner.close();
     }
