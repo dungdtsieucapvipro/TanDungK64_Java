@@ -1,6 +1,6 @@
-package BaiTap.Employee_Interface_Extends;
+package BaiTap.Employee_Interface_Extends_NEW;
 
-public class Employee implements IEmployee {
+public class Employee implements IEmployee{
     String name;
     int paymentPerHour;
 
@@ -21,7 +21,6 @@ public class Employee implements IEmployee {
     public int calculateSalary() {
         return 0;
     }
-
     @Override
     public String getName() {
         return name;
