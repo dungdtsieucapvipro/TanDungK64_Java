@@ -23,4 +23,5 @@ public class Triangle {
 
         return (side1 + side2 + side3);
     }
+
 }

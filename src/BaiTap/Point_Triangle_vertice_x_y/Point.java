@@ -20,4 +20,5 @@ public class Point {
     public int getY() {
         return y;
     }
+
 }

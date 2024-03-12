@@ -1,5 +1,4 @@
 package BaiTap.Point_Triangle_vertice_x_y;
-
 import java.util.Scanner;
 
 public class Main {
@@ -30,4 +29,5 @@ public class Main {
         System.out.print("--Chu vi Hinh tam giac la: " + triangle.getPerimeter());
 
     }
+
 }
