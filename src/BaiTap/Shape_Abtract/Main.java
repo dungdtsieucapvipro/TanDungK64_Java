@@ -52,12 +52,18 @@ public class Main {
 
         // In thông tin các hình
         System.out.println("Hình tròn:");
+        System.out.println("Dien tich Hình tròn: " + circle.getArea());
+        System.out.println("Chu vi Hình tròn: " + circle.getPerimeter());
         System.out.println(circle.toString());
 
         System.out.println("Hình chữ nhật:");
+        System.out.println("Dien tich Hình chữ nhật: " + rectangle.getArea());
+        System.out.println("chu vi Hình chữ nhật: " + rectangle.getPerimeter());
         System.out.println(rectangle.toString());
 
         System.out.println("Hình vuông:");
+        System.out.println("Dien tich Hình vuông: " + square.getArea());
+        System.out.println("chu vi Hình vuông: " + square.getPerimeter());
         System.out.println(square.toString());
     }
 }
