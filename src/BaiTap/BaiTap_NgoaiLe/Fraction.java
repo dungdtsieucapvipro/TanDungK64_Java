@@ -9,8 +9,8 @@ public class Fraction {
     }
 
 }
-public class TestException2 {
-    public static void main(String[] args) {
-        Fraction f = new Fraction(2,0);
-    }
-}
+//public class TestException2 {
+//    public static void main(String[] args) {
+//        Fraction f = new Fraction(2,0);
+//    }
+//}
