@@ -28,6 +28,7 @@ public class FileWriter {
                 System.out.println(data);
             }
             myReader.close();
+//        } catch (Exception e) { :bắt đc tất cả ngoại lệ
         } catch (FileNotFoundException e) {
             //throw new RuntimeException(e);
             System.out.println("File ko tim thay");
