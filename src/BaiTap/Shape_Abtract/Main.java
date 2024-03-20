@@ -67,3 +67,6 @@ public class Main {
         System.out.println(square.toString());
     }
 }
+//interface: chi co phuong thuc
+//abstract: co ca phuong thuc va thuoc tinh - phuong thuc ao chua duoc dinh nghia:
+// toString:  dung de convert object qua text
